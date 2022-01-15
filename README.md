@@ -35,7 +35,7 @@ Discord Bot with python
 
 **Clone the project by running**
 
-```git clone https://github.com/aasis2520c/Discord-Bot```
+```gh repo clone aasis2520c/Discord-Bot```
 
 
 
