@@ -61,3 +61,7 @@ Discord Bot with python
        No api key required 
 
 
+**Implementation video**
+
+https://www.facebook.com/groups/itsnporg/permalink/1054853625296067/
+
