@@ -16,10 +16,8 @@ async def on_ready():
     for guild in client.guilds:
         if guild.name == "GUILD":
             break
-
     # client.user represents to bot
     print(f"{client.user} is here!")
-
     # printing server name
     print(guild.name)
 
@@ -62,6 +60,5 @@ async def on_message(message):
     # Completing query of sender
     elif any(word in message.content for word in weby):
         await message.channel.send(query_find(message.content))
-
 
 client.run(os.environ.get("DISCORD"))

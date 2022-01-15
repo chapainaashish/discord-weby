@@ -1,6 +1,20 @@
 # Discord-Bot
 Discord Bot with python
 
+
+
+**Operations;**
+
+- Greets, wish birthday, show encrougments(depend on user message)
+
+- Fetch news and headlines (can be requested)
+
+- Fetch motivational quotes (depend on user message)
+
+- Complete general query(general facts)
+
+
+
 **Module used**
 
 - requests 
@@ -11,11 +25,11 @@ Discord Bot with python
 
 **APIs used**
 
-- walframalpha
+- walframalpha (to complete general queries)
 
-- newsapi
+- newsapi (to fetch headlines)
 
-- zenquotes 
+- zenquotes (to fetch motivational quotes)
 
 
 
