@@ -5,6 +5,8 @@ Discord Bot with python
 
 **Operations;**
 
+- Welcomes new member
+
 - Greets, wish birthday, show encrougments(depend on user message)
 
 - Fetch news and headlines (can be requested)
