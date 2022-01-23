@@ -1,4 +1,5 @@
-hello_hints = ("Hi", "Hello", "How are you", "Namaskar", "Greeting")
+hello_hints = ("Hi", "Hello", "How are you",
+               "Namaskar", "Greeting", "hi", "hello")
 
 sad_words = ["sad", "depressed", "fail", "failure",
              "unhappy", "stress", "miserable", "angry", "Sad"]
@@ -18,4 +19,6 @@ news = ["news", "NEWS", "News", "headlines", "Headlines", "HEADLINES"]
 weby = ["Weber", "weber", "WEBER", "weby", "WEBY", "Weby"]
 
 quotes_hint = ["quotes", "Quotes", "QUOTES",
-               "motivational", "MOTIVATIONAL", "Motivational", "inspire", "Inspire", "Inspiration", "inspiration", "quote", "Quote", "QUOTE", "motivation","Motivation"]
+               "motivational", "MOTIVATIONAL", "Motivational", "inspire", "Inspire", "Inspiration", "inspiration", "quote", "Quote", "QUOTE", "motivation", "Motivation"]
+
+bye_hints = ["bye", "Bye", "BYE", ]

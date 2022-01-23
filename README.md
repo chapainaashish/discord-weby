@@ -25,6 +25,7 @@ Discord Bot with python
 
 
 
+
 **APIs used**
 
 - walframalpha (to complete general queries)
@@ -37,7 +38,7 @@ Discord Bot with python
 
 **Clone the project by running**
 
-```gh repo clone aasis2520c/Discord-Bot```
+```git clone https://github.com/aasis2520c/Discord-Bot.git```
 
 
 
@@ -63,7 +64,7 @@ Discord Bot with python
        No api key required 
 
 
-**Implementation video**
+**Testing video**
 
 https://www.facebook.com/groups/itsnporg/permalink/1054853625296067/
 
