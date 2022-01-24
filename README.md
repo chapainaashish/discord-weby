@@ -1,5 +1,5 @@
 # Discord-Bot
-Discord Bot with python
+Discord Bot with Python
 
 
 
@@ -38,7 +38,7 @@ Discord Bot with python
 
 **Clone the project by running**
 
-```git clone https://github.com/aasis2520c/Discord-Bot.git```
+```git clone https://github.com/aashish25c/Discord-Bot.git```
 
 
 
