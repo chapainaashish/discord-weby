@@ -1,7 +1,7 @@
 # await is used to suspends the execution of the sorrounding coroutine until the execution of each coroutine has finished
 
-import discord
 import random
+import discord
 from api_requests import *
 from word_list import *
 from config import *
@@ -38,24 +38,17 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    # # Saying hello if message start with "Hello"
-    # if message.content.startswith(hello_hints):
-    #     await message.channel.send(f"{random.choice(hello_hints)} {message.author.name}")
-
-    # # Cheering up if any sad word found
-    # if any(word in message.content for word in sad_words):
-    #     await message.channel.send(random.choice(cheer_ups))
-
-    # if any(word in message.content for word in bye_hints):
-    #     await message.channel.send(f"Bye {message.author.name}")
-
-    # # Wishing happy birthday if birthday related word found
-    # if any(word in message.content for word in birthday_hint):
-    #     await message.channel.send(random.choice(birthday_ups))
-
     # Sending motivational quotes if any hints found
     if any(word in message.content for word in quotes_hint):
         await message.channel.send(get_quote())
+
+    # Cheering up if any hints found
+    if any(word in message.content for word in sad_words):
+        await message.channel.send(random.choice(cheer_ups))
+
+    # Wishing birthday if any hints found
+    if any(word in message.content for word in birthday_hint):
+        await message.channel.send(random.choice(birthday_ups))
 
     # Sending today news if news related cordinates found
     if any(word in message.content for word in news):
@@ -66,6 +59,7 @@ async def on_message(message):
     if any(word in message.content for word in weby):
         await message.channel.send(query_find(message.content))
 
+    # Completing query through dialogflow
     else:
         await message.channel.send(dialogflow_request(message.content))
 

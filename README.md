@@ -9,11 +9,13 @@ Discord Bot with Python
 
 - Greets, wish birthday, show encrougments(depend on user message)
 
+- Basic conversation and small talks
+
 - Fetch news and headlines (can be requested)
 
 - Fetch motivational quotes (depend on user message)
 
-- Complete general query(general facts)
+- Complete general query (general facts)
 
 
 
@@ -22,6 +24,8 @@ Discord Bot with Python
 - requests 
 
 - discord 
+
+- dialogflow
 
 
 
@@ -33,6 +37,9 @@ Discord Bot with Python
 - newsapi (to fetch headlines)
 
 - zenquotes (to fetch motivational quotes)
+
+- dialogflow (for conversation and small talks)
+
 
 
 
@@ -58,6 +65,10 @@ Discord Bot with Python
 - newsapi
 
        https://newsapi.org/docs/get-started
+
+- dialogflow
+       
+       https://cloud.google.com/dialogflow/docs
 
 - zenquotes 
 
