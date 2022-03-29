@@ -1,6 +1,7 @@
 import os
 from google.cloud import dialogflow_v2beta1 as dialogflow
 from config import *
+# Getting credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "weber-sbhu-ab7a0fd864b7.json"
 
 
